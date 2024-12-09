@@ -1,0 +1,90 @@
+body 
+{
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  background-color: hsl(226, 43%, 10%);
+  color: hsl(236, 100%, 87%);
+}
+  
+.dashboard 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+  
+.profile-card 
+{
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+  
+.profile-pic 
+{
+  border-radius: 50%;
+  width: 80px;
+  margin-bottom: 10px;
+}
+  
+  .report-title {
+    font-size: 14px;
+    color: hsl(235, 45%, 61%);
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .view-options {
+    margin-top: 20px;
+  }
+  
+  .view-btn {
+    background: none;
+    border: none;
+    color: hsl(236, 100%, 87%);
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .view-btn.active {
+    color: hsl(246, 80%, 60%);
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    text-align: left;
+  }
+  
+  .card h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .current-time {
+    font-size: 32px;
+  }
+  
+  .previous-time {
+    font-size: 12px;
+    color: hsl(235, 45%, 61%);
+  }
+  
+  .work { background-color: hsl(15, 100%, 70%); }
+  .play { background-color: hsl(195, 74%, 62%); }  

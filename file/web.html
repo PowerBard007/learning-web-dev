@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-Tracking Dashboard</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" >
+</head>
+
+
+<body>
+    <div class="dashboard">
+      <div class="profile-card">
+        <div class="profile-info">
+        
+          <img src="profile.jpg" alt="Jeremy Robson" class="profile-pic">
+        
+          <p class="report-title">Report for</p>
+        
+          <h1 class="profile-name">Jeremy Robson</h1>
+      
+        </div>
+     
+        <div class="view-options">
+          <button id="daily" class="view-btn active">Daily</button>
+          <button id="weekly" class="view-btn">Weekly</button>
+          <button id="monthly" class="view-btn">Monthly</button>
+        </div>
+      </div>
+    <div class="cards">
+      <div class="card work">
+        <h2>Work</h2>
+        <p class="current-time" id="work-time">32hrs</p>
+        <p class="previous-time" id="work-prev">Last Week - 36hrs</p>
+      </div>
+      <div class="card play">
+        <h2>Play</h2>
+        <p class="current-time" id="play-time">10hrs</p>
+        <p class="previous-time" id="play-prev">Last Week - 8hrs</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
